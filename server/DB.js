@@ -13,9 +13,9 @@ const {Sequelize} = require('sequelize');
 */
 
 module.exports = new Sequelize(
-    'spent_market',
-    'postgres',
-    '1',
+    "spent_market",
+    "postgres",
+    "1",
     {
         dialect: 'postgres',
         host: process.env.DB_HOST,
