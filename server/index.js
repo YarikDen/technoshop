@@ -7,7 +7,7 @@ require('dotenv').config();
 
 const PORT = process.env.PORT;
 const app = express();
-
+app.use('/api', router)
 const start = async () => {
   try {
       await sequelize.authenticate();
